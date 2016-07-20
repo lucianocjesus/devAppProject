@@ -19,6 +19,7 @@ namespace devAppProject.Api.Controllers
             _service = new PerfilUsuarioService();
         }
 
+
         [HttpGet]
         [Route("v1/public/GetIdPerfilUsuario/{id}")]
         public Task<HttpResponseMessage> GetIdPerfilUsuario(int id)
